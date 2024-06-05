@@ -1,0 +1,262 @@
+*{
+  font-family: Montserrat;  
+}
+
+body{
+    padding: 30px 220px;
+    background-color: #141414;
+}
+
+/* provisorio */
+header,main{
+    background: rgba( 20, 20, 20, 0.25 );
+    box-shadow: 0 8px 32px 0 #1f1f1f;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 40px;
+    border: 1px solid #141414;
+}
+
+.hero{
+    padding: 0px 90px;
+}
+
+.blanco{
+    color: #ffffff;
+}
+
+.negro{
+  color: #141414 ;  
+}
+
+.verde{
+    color: #94e214;
+}
+
+nav{
+    padding: 40px 40px 40px 0px;
+    font-size: 11px;
+}
+
+
+a{
+    padding-right: 60px;
+    text-decoration: none;
+
+}
+
+
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.boton{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background: rgba( 20, 20, 20, 0.8 );
+    box-shadow: 0 8px 32px 0 #1f1f1f;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid #141414;
+    margin-right: 10px;
+    box-shadow: 10px;
+}
+
+i{
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.boton2{
+    font-family: Share Tech Mono;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #141414;
+    height: 45px;
+    width: 200px;
+    margin-left: 700px;
+}
+
+.text-transform{
+    text-transform: uppercase;
+}
+
+
+
+
+.font-opacity{
+    opacity: 5%;
+}
+
+
+.boton3{
+    font-family: Share Tech Mono;
+    font-size: 20px;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #141414;
+    height: 65px;
+    width: 200px;
+    margin: 50px 0px;
+}
+
+.about{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-content: center; */
+    padding: 90px 90px 90px 90px;
+
+
+}
+
+
+
+h2{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.texto-desplazable {
+    width: 550px;
+    height: 350px; 
+    overflow: auto; 
+    border: 1px none #ccc; 
+    padding: 10px; 
+    margin-left: 350px;
+    margin-top: 0px;
+    background-color: #94e214;
+}
+
+  .derecha{
+    text-align: right;
+
+}
+
+.boton4{
+    font-family: Share Tech Mono;
+    font-size: 20px;
+    border-color: #141414;
+    color: #141414;
+    background-color: #ffffff;
+    border-radius: 7px;
+    height: 65px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+.skills{
+    padding: 90px 90px 90px 90px;
+
+}
+
+.hard-skills{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-bottom:  200px; 
+}
+
+.lista-desplazable {
+    width: 600px;
+    height: 400px; 
+    overflow: auto; 
+    border: 1px none #ccc; 
+    /* padding: 10px;  */
+    /* margin-left: 650px; */
+    color:#ffffff;
+    font-size: 40px;
+}
+
+.icono{
+    font-size: 40px;
+    margin-right:60px ;
+}
+
+.lista1{
+    padding: 0px 50px 50px 50px;
+    list-style: none;
+    
+}
+
+.inline{
+    margin: 40px 40px 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 20px;
+    color: #ffffff;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    background: rgba( 20, 20, 20, 0.8 );
+    box-shadow: 0 8px 32px 0 #1f1f1f;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid #141414;
+    list-style: square;
+}
+
+
+
+
+.portfolio{
+    background-color: #ffffff;
+    padding: 90px 90px 90px 90px;
+}
+.trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.letra{
+    font-family: Share Tech Mono;
+    margin-top: 0px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.letra2{
+    font-family: Share Tech Mono;
+    margin-top: 0px;
+    margin-right: 30px;
+    font-size: 15px;
+    opacity: 30% ;
+}
+.flecha{
+    margin: 0px;
+    /* background-color: #94e214; */
+}
+
+.contacto{
+    padding: 40px 90px 90px 90px;
+}
+
+.fondo{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/260/757/desktop-wallpaper-fondos-de-pantalla-del-monumental-estadio-monumental.jpg);
+}
+.carta{
+    background: rgba( 20, 20, 20, 0.8 );
+    box-shadow: 0 8px 32px 0 #1f1f1f;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid #141414;
+    height: 100%;
+    width: 15%;
+}

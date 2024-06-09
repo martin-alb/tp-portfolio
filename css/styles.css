@@ -5,6 +5,8 @@
 body{
     padding: 30px 220px;
     background-color: #141414;
+
+    
 }
 
 /* provisorio */
@@ -13,12 +15,22 @@ header,main{
     box-shadow: 0 8px 32px 0 #1f1f1f;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 40px;
-    border: 1px solid #141414;
+    border-radius: 50px;
+    border: 1px none #141414;
 }
+
 
 .hero{
     padding: 0px 90px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+img{
+    margin-left: 270px;
+    width: 300px;
+    height: 550px;
 }
 
 .blanco{
@@ -34,14 +46,48 @@ header,main{
 }
 
 nav{
-    padding: 40px 40px 40px 0px;
+    padding: 40px 40px 60px 0px;
     font-size: 11px;
+     position: sticky;
+    top: 0;
+    background-color: #141414; 
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+a{
+    padding-right: 40px;
+    text-decoration: none;
+
+}
+
+i{
+    transition: all 1s ease;
+}
+
+i:hover{
+    color: #141414;
 }
 
 
-a{
-    padding-right: 60px;
-    text-decoration: none;
+
+
+.bi-github, .bi-instagram, .bi-linkedin, .bi-whatsapp {
+    transition: all 1s ease;
+    font-size: 25px;
+    padding: 6px;
+}
+
+.bi-github:hover, .bi-instagram:hover, .bi-whatsapp:hover, .bi-linkedin:hover {
+    color: #141414;
 
 }
 
@@ -58,7 +104,8 @@ p{
 }
 
 .boton{
-    width: 70px;
+    padding: 15px;
+    width: 170px;
     height: 70px;
     border: none;
     border-radius: 10px;
@@ -69,7 +116,13 @@ p{
     border: 1px solid #141414;
     margin-right: 10px;
     box-shadow: 10px;
+    transition: all  1s ease ;
 }
+
+.boton:hover{
+    background-color: #ffffff;
+}
+
 
 i{
     color: #ffffff;
@@ -85,6 +138,13 @@ i{
     height: 45px;
     width: 200px;
     margin-left: 700px;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.boton2:hover{
+    background-color: #ffffff;
+    color: #141414;
 }
 
 .text-transform{
@@ -109,7 +169,14 @@ i{
     height: 65px;
     width: 200px;
     margin: 50px 0px;
+    transition: all 1s ease;
 }
+
+.boton3:hover{
+    background-color: #ffffff;
+    color: #141414;
+}
+
 
 .about{
     background-color: #ffffff;
@@ -156,6 +223,12 @@ h2{
     height: 65px;
     width: 300px;
     margin-top: 50px;
+    transition: all 1s ease;
+}
+
+.boton4:hover {
+    background: #141414;
+    color: #ffffff;
 }
 
 
@@ -254,7 +327,7 @@ hr{
 }
 
 .fondo{
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/260/757/desktop-wallpaper-fondos-de-pantalla-del-monumental-estadio-monumental.jpg);
+    background-image: url(Captura\ de\ pantalla\ 2024-06-08\ 151231.png);
 }
 .carta{
     background: rgba( 20, 20, 20, 0.8 );
@@ -263,7 +336,8 @@ hr{
     -webkit-backdrop-filter: blur( 10px );
     border: 1px solid #141414;
     height: 100%;
-    width: 15%;
+    width: 20%;
+
 }
 
 .carta i{
@@ -271,17 +345,40 @@ hr{
 }
 
 .carta2{
-    padding: 10px 40px;
+    padding: 20px 70px;
     margin-bottom: 20px;
-    background-color: #141414;
+    background: rgba( 20, 20, 20, 0.8 );
     border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 1s ease;
 }
 
-.carta2 i{
-    margin-right: 20px;
+/* .carta2:hover,.link:hover {
+    background-color: #ffffff;
+    color: #141414; */
+
+
+.link{
+    text-decoration: none;
+    color: #ffffff;
 }
 
+.flecha2{
+    font-size: 12px;
+    text-align: right;}
 
+
+.carta p{
+    margin-top: 10px;
+
+}
+
+.carta h3{
+    font-size: 40px;
+}
 /* scrollbars */
 .lista-desplazable::-webkit-scrollbar-track
 {

@@ -1,0 +1,254 @@
+@media(max-width:1440px){
+    body{
+        padding: 30px 100px;
+    }
+    .boton2{
+        height: 30px;
+        width: 150px;
+        margin-left: 300px;
+        font-size: 10px;
+    }
+
+    .texto-desplazable{
+        width: 450px;
+        margin-left: 100px;
+    }
+
+    .lista-desplazable{
+        width: 450px;
+        margin-left: 160px;
+    }
+
+    .carta-portfolio{
+        display: none;
+    }
+}
+
+@media(max-width:1280px){
+    .img-personal{
+        width: 250px;
+        height: 500px;
+        margin-left: 200px;
+    }
+
+    .texto-desplazable{
+        width: 350px;
+        margin-left: 75px;
+    }
+
+    .lista-desplazable{
+        width: 350px;
+        margin-left: 130px;
+        font-size: 30px;
+    }
+
+    .bi-github, .bi-instagram, .bi-linkedin, .bi-whatsapp {
+        font-size: 18px;
+    }
+    
+    .carta h3{
+        font-size: 35px;
+    }
+
+    .carta p{
+        font-size: 12px;
+    }
+
+    .carta i{
+        margin-right: 0px;
+    }
+
+    .bi-telephone-fill, .bi-envelope-at-fill{
+        font-size: 18px;
+    }
+
+    .carta2{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1024px){
+    .boton2{
+        margin-left: 100px;
+    }
+    .img-personal{
+        width: 250px;
+        height: 450px;
+        margin-left: 100px;
+    }
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h2{
+        text-align: center;
+    }
+
+    .texto-desplazable{
+        width: 500px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .hard-skills{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .lista-desplazable{
+        width: 500px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .card{
+        padding: 15px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .letra{
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .letra2{
+        font-size: 11px;
+        margin-right: 15px;
+
+    }
+
+    .div-portfolio{
+        height: 300px;
+    }
+
+    .carta h3{
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:768px){
+    body{
+        padding: 10px 0px;
+    }
+
+    .boton2{
+        margin-left: 50px ;
+        width: 100px;
+    }
+
+    span{
+        display: none;
+    }
+
+    .img-personal{
+        display: none;
+    }
+
+    .texto-desplazable{
+        width: 40vw;
+        overflow: hidden;
+    }
+
+    .verde{
+        display: block;
+    }
+
+    .lista-desplazable{
+        width: 39vw;
+        font-size: 15px;
+    }
+
+    .card{
+        padding: 12px;
+        margin-right: 18px;
+        margin-bottom: 7px;
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width:480px){
+    nav{
+        display: none;
+    }
+
+
+    body{
+        padding: 0px 0px;
+    }
+
+    .lista-desplazable{
+        width: 400px;
+    }
+    
+    .skills,.about,.hero,.contacto,.portfolio{
+        padding: 40px 0px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .lista-desplazable{
+        /* width: 200px; */
+        /* overflow: hidden; */
+        font-size: 14px;
+    }
+
+    .fondo{
+        background: #141414;
+    }
+
+    .carta{
+        background-color: #141414;
+        text-align: center;
+        width: 100%;
+    }
+
+    .carta2{
+        padding: 10px 10px;
+        display: inline
+        width: 50%;
+        text-align: center;
+    }
+
+
+    .bi-telephone-fill, .bi-envelope-at-fill{
+        font-size: 10px;
+    }
+
+    .trabajos{
+        display: none;
+    }
+
+    .section-portfolio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-portfolio{
+        width: 350px;
+        margin: 20px 0px;
+    }
+
+    .boton5{
+        margin: 0px 25%;
+    }
+
+}   
+
+
+@media(max-width:320px){
+
+}
+
+

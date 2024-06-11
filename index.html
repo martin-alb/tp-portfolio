@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
@@ -15,7 +17,7 @@
         
     </header>
     <main>
-        <nav>
+        <nav class="shift">
             <a href="#hero" class="blanco text-transform">Home</a>
             <a href="#about" class="blanco text-transform">Acerca de mi</a>
             <a href="#skills" class="blanco text-transform">Skills</a>
@@ -39,7 +41,7 @@
                 </div>
             </div>
             <div>
-                <img src="WhatsApp_Image_2024-06-08_at_14.40.10-removebg-preview.png" alt="">
+                <img src="img/WhatsApp_Image_2024-06-08_at_14.40.10-removebg-preview.png" alt="" class="img-personal">
             </div>
         </section>
         <!-- Seccion Acerca de mi -->
@@ -50,7 +52,7 @@
                 <h2 class="prueba derecha verde text-transform">mi</h2>
                 <button type="button" class="boton4">Descargar CV <i class="bi bi-file-earmark-text-fill negro"></i> </button>
             </div>
-            <p class="texto-desplazable">Mi nombre es Martin Albarracin, tengo 23 años y soy de Cordoba, Argentina. Me encuentro estudiando ingenieria en sistemas en la UTN FRC. Tengo conocimientos en programacion web, manejo de base de datos relacionales y analisis y diseños de sistemas de informacion.
+            <p class="texto-desplazable">Mi nombre es Martin Albarracin, tengo 23 años y soy de Cordoba, Argentina. Me encuentro estudiando ingenieria en sistemas en la UTN FRC. Tengo conocimientos en programacion web, manejo de bases de datos relacionales, analisis y diseños de sistemas de informacion.
            <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ad atque facilis vel iusto doloribus maxime consequuntur nam, debitis id odit. Rem, sequi sed. Deleniti animi doloribus ratione eos quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut sequi tenetur quam? Veniam quisquam consequuntur deleniti consequatur dolor libero expedita quo minima, voluptates fugiat aut consectetur natus. Harum, architecto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae earum sint aliquid saepe soluta, consequuntur veritatis unde quia voluptates id sapiente harum exercitationem deleniti, quisquam dolorem minima libero ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos reiciendis consequuntur est magni quidem adipisci natus possimus, optio ratione ab voluptatem laborum exercitationem vel delectus mollitia facilis corrupti quia. Adipisci?
             </p>
         </section>
@@ -104,18 +106,43 @@
                 <p class="letra2">Branding<i class="bi bi-arrow-down-right negro flecha"></i></p>
                 <p class="letra2">Social media<i class="bi bi-arrow-down-right negro flecha"></i></p>
             </section>
+            <div>
+                <div class="section-portfolio">
+                    <div class="div-portfolio">
+                        <h3 class="text-transform blanco">Trabajo opcional 1</h3>
+                        <a style="padding-right: 1px;" href="https://github.com/martin-alb/image-based-web-project"><i class="bi bi-arrow-up-right negro flecha3"></i></a>
+                        <div class="">
+                            <img src="img/Captura de pantalla 2024-06-10 193748.png" alt="" class="img-portfolio " >
+                        </div>
+                        <div class="carta-portfolio text-transform blanco">
+                            <p>Trabajo practico opcional 1, replicacion de un login de sitio web Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod ex minus, omnis rerum voluptatem incidunt quaerat recusandae at provident soluta, illo similique ipsa! Odio reprehenderit eum libero excepturi perspiciatis et.</p>
+                        </div>
+                    </div>
+                    <div class="div-portfolio">
+                        <h3 class="text-transform blanco">Trabajo opcional 2</h3>
+                        <a href="https://github.com/martin-alb/boxes-tpo2" style="padding-right: 1px;""><i class="bi bi-arrow-up-right negro flecha3"></i></a>
+                        <div class="">
+                            <img src="img/Captura de pantalla 2024-06-10 193805.png" alt="" class="img-portfolio " >
+                        </div>
+                        <div class="carta-portfolio text-transform blanco">
+                            <p>Trabajo practico opcional 2, replicacion de un login de sitio web Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod ex minus, omnis rerum voluptatem incidunt quaerat recusandae at provident soluta, illo similique ipsa! Odio reprehenderit eum libero excepturi perspiciatis et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="boton5"><span class="negro font-opacity">/hire  </span>Contratame  <span class="negro font-opacity">/hire</span></button>            
         </section>
         <!-- Seccion contacto -->
-        <section id="#contacto" class="fondo" >
+        <section id="contacto" class="fondo" >
             <div class="contacto carta">
                 <h3 class="blanco text-transform text">Contactos:</h3>
                 <p class="blanco "><i class="bi bi-telephone-fill"></i>+54 2657 656480</p>
                 <p class="blanco"><i class="bi bi-envelope-at-fill"></i>martin.albarracin.10@gmail.com</p>
                 <div>
-                    <div class="blanco carta2"><i class="bi bi-github"></i><a href="https://github.com/martin-alb" class="link">Github</a><i class="bi bi-arrow-down-right flecha2"></i></div>
-                    <div class="blanco carta2"><i class="bi bi-linkedin"></i><a href="" class="link">Linkedin</a><i class="bi bi-arrow-down-right flecha2"></i></div>
-                    <div class="blanco carta2"><i class="bi bi-whatsapp"></i><a href="" class="link">Whatsapp</a><i class="bi bi-arrow-down-right flecha2"></i></div>
-                    <div class="blanco carta2"><i class="bi bi-instagram"></i><a href="https://www.instagram.com/martin.albarracin/" class="link">Instagram</a><i class="bi bi-arrow-down-right flecha2"></i></div>
+                    <div class="blanco carta2 hvr-grow"><i class="bi bi-github"></i><a href="https://github.com/martin-alb" class="link">Github</a><i class="bi bi-arrow-up-right flecha2"></i></div>
+                    <div class="blanco carta2  hvr-grow"><i class="bi bi-linkedin"></i><a href="" class="link">Linkedin</a><i class="bi bi-arrow-up-right flecha2"></i></div>
+                    <div class="blanco carta2  hvr-grow"><i class="bi bi-whatsapp"></i><a href="" class="link">Whatsapp</a><i class="bi bi-arrow-up-right flecha2"></i></div>
+                    <div class="blanco carta2  hvr-grow"><i class="bi bi-instagram"></i><a href="https://www.instagram.com/martin.albarracin/" class="link">Instagram</a><i class="bi bi-arrow-up-right flecha2"></i></div>
                 </div>
             </div>
         </section>

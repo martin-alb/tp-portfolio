@@ -162,7 +162,7 @@
     }
 
     .lista-desplazable{
-        width: 39vw;
+        width: 50vw;
         font-size: 15px;
     }
 
@@ -190,7 +190,7 @@
     }
     
     .skills,.about,.hero,.contacto,.portfolio{
-        padding: 40px 0px;
+        padding: 40px 30px;
     }
 
     h2{
@@ -198,8 +198,6 @@
     }
 
     .lista-desplazable{
-        /* width: 200px; */
-        /* overflow: hidden; */
         font-size: 14px;
     }
 
@@ -244,10 +242,34 @@
         margin: 0px 25%;
     }
 
+    .texto-desplazable{
+        width: 250px;
+    }
+
 }   
 
 
 @media(max-width:320px){
+    .lista-desplazable{
+        width: 300px;
+    }
+
+    .inline{
+        display: none;
+    }
+
+    .div-portfolio{
+        width: 250px;
+        margin: 20px 0px;
+    }
+
+    #softskills{
+        display: none;
+    }
+
+    .boton4{
+        width: 200px;
+    }
 
 }
 

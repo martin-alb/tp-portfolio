@@ -11,9 +11,19 @@ body{
 }
 
 
+.developer{
+    font-family: Share Tech Mono;
+    margin: 0px;
+    text-align: center;
+}
+
 /* provisorio */
 header,main{
     background: rgba( 20, 20, 20, 0.25 );
+    box-shadow: 2px 1px 400px -48px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 2px 1px 400px -48px rgba(0,0,0,0.8);
+    -moz-box-shadow: 2px 1px 400px -48px rgba(0,0,0,0.8);
+
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 50px;
@@ -26,10 +36,12 @@ header,main{
     background-color: #141414;
 }
 
+
 .img-personal{
     margin-left: 270px;
     width: 300px;
-    height: 550px;
+    height: 600px;
+    z-index: 9997;
 }
 
 .blanco{
